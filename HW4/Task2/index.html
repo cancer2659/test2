@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Home Work 4. Functions (Mahlai K.). Сумма минимальных</title>
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+    <style>
+        button{
+            padding: 15px;
+            background-color: #d1ecf1;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        button:hover{
+            transform: scale(1.05);
+            transition: 0.8s;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="returnResult()" type="button">Сумма двух наименьших чисел массива (с Sort)</button>
+    <button onclick="returnResultWithoutSort()" type="button">Сумма двух наименьших чисел массива (без Sort)</button>
+    <h1 id="titleOfFunction"></h1>
+    <p id="outResultSumMin"></p>
+</body>
+</html>

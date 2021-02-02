@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  background-color: lightgoldenrodyellow; }
+
+section {
+  margin: auto;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  section h1 {
+    text-align: center; }
+  section img {
+    width: 100%;
+    margin-bottom: 20px; }
+  section form {
+    padding: 5px;
+    width: 100%;
+    border: 0.8px darkgrey solid;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; }
+    section form select {
+      width: 45%;
+      margin-bottom: 10px;
+      display: inline-block; }
+    section form input {
+      width: 50%;
+      margin-bottom: 10px; }
+    section form .buttonsBlock {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 15px; }
+      section form .buttonsBlock button {
+        margin: 0 10px;
+        padding: 5px;
+        border-radius: 3px;
+        font-weight: bolder; }
+  section p {
+    width: 100%;
+    line-height: 30px; }
+
+/*# sourceMappingURL=style.css.map */
